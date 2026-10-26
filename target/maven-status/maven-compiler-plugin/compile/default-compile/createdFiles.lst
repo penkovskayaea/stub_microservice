@@ -1,0 +1,11 @@
+com\example\stub\config\StubConfig$StubConfigWrapper.class
+com\example\stub\controller\StubController.class
+com\example\stub\config\Rule.class
+com\example\stub\config\ProxyConfig.class
+com\example\stub\util\RandomDataGenerator.class
+com\example\stub\service\ProxyService.class
+com\example\stub\service\StubService.class
+com\example\stub\metrics\CustomMetrics.class
+com\example\stub\StubApplication.class
+com\example\stub\config\StubConfig.class
+com\example\stub\config\ResponseConfig.class

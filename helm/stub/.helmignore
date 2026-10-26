@@ -1,0 +1,16 @@
+# Patterns to ignore when building packages.
+# This works like .gitignore.
+# Documentation: https://helm.sh/docs/chart_template_guide/helm_ignore_file/
+
+# Files and directories
+.*
+*.swp
+*.swo
+*~
+.DS_Store
+.git/
+.gitignore
+.idea/
+*.iml
+.vscode/
+node_modules/

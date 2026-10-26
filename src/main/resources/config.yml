@@ -1,0 +1,26 @@
+rules:
+  - path: /ping
+    method: GET
+    response:
+      status: 200
+      body: "я живой"
+    delay: 0
+
+  - path: /proxy-test
+    method: POST
+    proxy:
+      url: http://httpbin.org/post
+    delay: 500
+
+  - path: /random
+    method: GET
+    response:
+      status: 200
+      randomSize: 1048576
+    delay: 200
+
+  - path: /custom-status
+    method: GET
+    response:
+      status: 410
+      body: "Gone"
